@@ -2,11 +2,11 @@ import { Component} from '@angular/core';
 import { map, of } from 'rxjs';
 
 @Component({
-  selector: 'app-map-example-component',
-  templateUrl: './map-example-component.component.html',
-  styleUrls: ['./map-example-component.component.css']
+  selector: 'app-map-example',
+  templateUrl: './map-example.component.html',
+  styleUrls: ['./map-example.component.css']
 })
-export class MapExampleComponentComponent {
+export class MapExampleComponent {
   public code: string = `
     transformedValue: number = -1;
 
