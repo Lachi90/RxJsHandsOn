@@ -8,14 +8,15 @@ import { map, of } from 'rxjs';
 })
 export class MapExampleComponentComponent {
   public code: string = `
-  transformedValue: number = -1;
+    transformedValue: number = -1;
 
-  constructor() {
-    const source = of(1, 2, 3, 4, 5);
-    source.pipe(map(value => value * 2)).subscribe(result => {
-      this.transformedValue += result.toString() + ';';
-    });
-  }`	
+    constructor() {
+      const source = of(1, 2, 3, 4, 5);
+      source.pipe(map(value => value * 2)).subscribe(result => {
+        this.transformedValue += result.toString() + ';';
+      });
+    }
+  `	
 
   public transformedValue: string = '';
 

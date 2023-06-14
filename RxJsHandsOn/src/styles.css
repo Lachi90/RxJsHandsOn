@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~prismjs/themes/prism-dark.css";
+
+/* Global styles */
+html {
+    display: block;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 20px;
+}
