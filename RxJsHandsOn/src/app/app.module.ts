@@ -8,13 +8,15 @@ import { PrismComponent } from './prism/prism.component';
 
 import 'prismjs/components/prism-typescript';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { FilterExampleComponent } from './filter-example/filter-example.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapExampleComponent,
     PrismComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    FilterExampleComponent
   ],
   imports: [
     BrowserModule,
