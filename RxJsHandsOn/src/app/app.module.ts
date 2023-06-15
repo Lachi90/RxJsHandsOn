@@ -10,6 +10,7 @@ import 'prismjs/components/prism-typescript';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { FilterExampleComponent } from './filter-example/filter-example.component';
 import { FirstExampleComponent } from './first-example/first-example.component';
+import { TakeUntilExampleComponent } from './take-until-example/take-until-example.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FirstExampleComponent } from './first-example/first-example.component';
     PrismComponent,
     NavigationBarComponent,
     FilterExampleComponent,
-    FirstExampleComponent
+    FirstExampleComponent,
+    TakeUntilExampleComponent
   ],
   imports: [
     BrowserModule,
